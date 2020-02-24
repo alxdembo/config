@@ -1,0 +1,43 @@
+[global_config]
+  borderless = True
+  suppress_multiple_term_dialog = True
+  window_state = fullscreen
+[keybindings]
+  hide_window = F12
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_term = 54594eb6-8c4b-48b6-a491-39f88efc37aa
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1600, 900
+      title = user@user-ThinkPad-T420: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 448
+      ratio = 0.500558659218
+      type = VPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 54594eb6-8c4b-48b6-a491-39f88efc37aa
+    [[[terminal3]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = f2440388-aa67-451f-ac04-0a9b6722eca5
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    scrollbar_position = hidden
+    show_titlebar = False
