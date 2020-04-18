@@ -2,6 +2,24 @@
 import subprocess
 import sys
 
+"""
+Super key:                 <Super>
+Control key:               <Primary> or <Control>
+Alt key:                   <Alt>
+Shift key:                 <Shift>
+numbers:                   1 (just the number)
+Spacebar:                  space
+Slash key:                 slash
+Asterisk key:              asterisk (so it would need `<Shift>` as well)
+Ampersand key:             ampersand (so it would need <Shift> as well)
+
+a few numpad keys:
+Numpad divide key (`/`):   KP_Divide
+Numpad multiply (Asterisk):KP_Multiply
+Numpad number key(s):      KP_1
+Numpad `-`:                KP_Subtract
+"""
+
 # defining keys & strings to be used
 key = "org.gnome.settings-daemon.plugins.media-keys custom-keybindings"
 subkey1 = key.replace(" ", ".")[:-1]+":"
